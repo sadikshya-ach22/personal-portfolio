@@ -2,9 +2,9 @@
 
 <html>
     <head>
-        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sadikshya Acharya | Portfolio</title>
         <link rel="stylesheet" href="style.css">
-
     </head>
 
     <body>
@@ -15,43 +15,76 @@
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
-        <section id="home">
-            <div class="home-content">
-                <div>
-                    <h1>Sadikshya Acharya</h1>
-                    <p>Computer Science student at Texas Tech University with interests in artificial intelligence, machine learning, and software development.</p>
-                </div>
-                <img src="images/profile.jpg" alt="Sadikshya Acharya" class="profile-photo">
-            </div>
-        </section>
+        <div class="profile-layout">
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>My name is Sadikshya Acharya, and I am a Computer Science at Texas Tech University. I am interested in artificial intelligence, machine learning, and building software that can solve real-world problems.</p>
-            <p>Beyond computer science, I enjoy exploring psychology and philosophy, particularly questions surrounding AI, ethics, and human-computer interaction. Outside of academics, I also enjoy photography, painting, and writing.</p>
-        </section>
+            <section id="home" class="profile-sidebar">
+                <img src="images/profile.jpg"
+                    alt="Sadikshya Acharya"
+                    class="profile-photo">
+
+                <h1>Sadikshya Acharya</h1>
+
+                <p class="intro">
+                    Computer Science student interested in artificial intelligence,
+                    machine learning, and software development.
+                </p>
+
+                <div class="profile-links">
+                    <a href="mailto:sadikshyaacharya16@gmail.com">Email</a>
+                    <a href="https://github.com/sadikshya-ach22" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/sadikshya-acharya-088580253/" target="_blank">LinkedIn</a>
+                </div>
+            </section>
+
+            <section id="about" class="about-content">
+                <h2>About Me</h2>
+
+                <p>
+                    My name is Sadikshya Acharya, and I am a junior studying Computer Science
+                    at Texas Tech University. I am interested in artificial intelligence,
+                    machine learning, and building software that can solve real-world problems.
+                </p>
+
+                <p>
+                    Beyond computer science, I enjoy exploring psychology and philosophy,
+                    particularly questions surrounding AI, ethics, and human-computer
+                    interaction. Outside of academics, I also enjoy photography, painting,
+                    and writing.
+                </p>
+            </section>
+
+        </div>
 
         <section id="skills">
-            <h2>Skills</h2>
-            <h3>Programming Languages</h3>
-            <ul>
-                <li>Python</li>
-                <li>C</li>
-                <li>Java</li>
-            </ul>
+        <h2>Skills</h2>
 
-            <h3>Web Technologies</h3>
-            <ul> 
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
+        <div class="skills-grid">
+            <div class="skill-group">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>Java</li>
+                </ul>
+            </div>
 
-            <h3>Tools</h3>
-            <ul>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>VS Code</li>
-            </ul>
+            <div class="skill-group">
+                <h3>Web Technologies</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+
+            <div class="skill-group">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+        </div>
         </section>
 
         <section id="projects">
@@ -70,11 +103,15 @@
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>Email: sadikshyaacharya16@gmail.com</p>
             <p>
-                <a href="https://github.com/sadikshya-ach22">GitHub</a>
-                <a href="https://www.linkedin.com/in/sadikshya-acharya-088580253/">LinkedIn</a>
-                <a href="https://www.instagram.com/sadikshya_ach22/">Instagram</a>
+                Email:
+                <a href="mailto:sadikshyaacharya16@gmail.com">
+                    sadikshyaacharya16@gmail.com
+                </a>
+            </p>
+            <p>
+                <a href="https://github.com/sadikshya-ach22" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/sadikshya-acharya-088580253/" target="_blank">LinkedIn</a>
             </p>
             
         </section>
