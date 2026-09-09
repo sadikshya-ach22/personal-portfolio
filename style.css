@@ -24,3 +24,17 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 8px;
 }
+
+.home-content { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
